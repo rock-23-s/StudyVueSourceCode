@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    // 只有types包含的包才会被包含进来
+    "types": ["node", "vitest/globals"]
+  },
+  // 包括 路径
+  "include": ["../src", "."]
+}
